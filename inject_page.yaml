@@ -1,0 +1,22 @@
+name: Inject Page
+description: Displays a Grav page.
+type: particle
+icon: fa-file-text-o
+
+form:
+  fields:
+    enabled:
+      type: input.checkbox
+      label: Enabled
+      description: Globally enable the Page particle.
+      default: true
+
+    page:
+      type: input.text
+      size: medium
+      label: Page to Display
+      default: ''
+      help: Choose the page to display.
+      description: Choose the page to display.
+      validate:
+          type: text

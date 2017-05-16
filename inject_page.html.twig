@@ -1,0 +1,10 @@
+{% extends '@nucleus/partials/particle.html.twig' %}
+
+{% block particle %}
+{% set content = pages.find('/' ~ particle.page).content %}
+{% if content %}
+  <div class="inject_page {{ particle.css.class }}">
+  {{ content|raw }}
+  </div>
+{% endif %}
+{% endblock %}
