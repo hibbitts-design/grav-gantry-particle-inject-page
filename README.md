@@ -1,4 +1,4 @@
-# Gantry 5 'Blog Feed' Particle for Grav
+# Gantry 5 'Inject Page' Particle for Grav
 
 Particles are small, modular blocks with preset scripting that enable you to add elements to your Grav Gantry 5 pages.
 
