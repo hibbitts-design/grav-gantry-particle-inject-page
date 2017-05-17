@@ -16,7 +16,7 @@ form:
       size: medium
       label: Page to Display
       default: ''
-      help: Choose the page to display.
-      description: Choose the page to display.
+      help: Enter the page (including entire route) to display.
+      description: Enter the page (including entire route) to display.
       validate:
           type: text
